@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+html,
+body {
+  margin: 0;
+  height: 100%;
+  padding: 1em;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5eff5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+h1 {
+  color: #2ab2af;
+}
+
+h2 {
+  color: #c0df34;
+}
+
+.community,
+.left,
+.right {
+  padding: 2em;
+}
+
+.community {
+  background-color: white;
+  border-radius: 5px 5px 0 0;
+}
+.community h1 {
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+.community h2 {
+  font-size: 1em;
+}
+.community p {
+  color: #98a6bd;
+  line-height: 1.5em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-radius: 0 0 5px 5px;
+}
+.content h3 {
+  letter-spacing: 1px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #2ab2af;
+}
+.left .pricing {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5em;
+}
+.left .pricing span {
+  font-size: 2.5rem;
+}
+.left .pricing p {
+  margin-left: 1em;
+  color: #e5eff5;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: rgba(42, 178, 176, 0.7);
+}
+.right ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.5em;
+  color: #e5eff5;
+}
+
+.btn {
+  font-weight: 700;
+  padding: 1em 0;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 100%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.btn-green {
+  background-color: #c0df34;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    width: 40em;
+    border-radius: 15px;
+  }
+
+  .community {
+    border-radius: 15px 15px 0 0;
+  }
+  .community h1 {
+    font-size: 2em;
+  }
+  .community h2 {
+    font-size: 1.5em;
+  }
+
+  .content {
+    flex-direction: row;
+    border-radius: 0 0 15px 15px;
+  }
+}

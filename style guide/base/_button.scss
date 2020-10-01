@@ -1,0 +1,15 @@
+.btn {
+    font-weight: 700;
+    padding: 1em 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+.btn-green {
+    background-color: $Bright-Yellow;
+    color: white;
+    letter-spacing: 1px;
+}

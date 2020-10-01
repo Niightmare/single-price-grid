@@ -1,0 +1,72 @@
+@import "../base/headings";
+
+.community,
+.left,
+.right {
+  padding: 2em;
+}
+
+.community {
+  background-color: white;
+  border-radius: 5px 5px 0 0;
+  // border: 1px solid yellowgreen;
+  h1 {
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+  }
+  h2{
+    font-size: 1em;
+  }
+  p {
+    color: $Grayish-Blue;
+    line-height: 1.5em;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-radius: 0 0 5px 5px;
+  // border: 2px solid orange;
+  h3 {
+    letter-spacing: 1px;
+  }
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: $Cyan;
+  // border: 1px solid fuchsia;
+  .pricing {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5em;
+    // border: 1px solid yellow;
+    span {
+      font-size: 2.5rem;
+      // border: 1px solid red;
+    }
+    p {
+      margin-left: 1em;
+      color: $Light-Gray;
+      // border: 1px solid lawngreen;
+    }
+  }
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: rgba(42, 178, 176, 0.7);
+  // border: 1px solid red;
+  ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.5em;
+    color: $Light-Gray;
+  }
+}

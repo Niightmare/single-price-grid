@@ -1,0 +1,26 @@
+@import "base/body";
+@import "layout/content";
+@import "base/button";
+@import "base/footer";
+
+@media screen and (min-width: 700px) {
+  .container {
+    width: 40em;
+    border-radius: 15px;
+  }
+
+  .community {
+    border-radius: 15px 15px 0 0;
+    h1 {
+      font-size: 2em;
+    }
+    h2 {
+      font-size: 1.5em;
+    }
+  }
+
+  .content {
+    flex-direction: row;
+    border-radius: 0 0 15px 15px;
+  }
+}
